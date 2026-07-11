@@ -34,14 +34,5 @@ TEST_QUERIES = [
             {**CHUNKS["c5"], "rerank_score": 0.48},
             {**CHUNKS["c3"], "rerank_score": 0.15},
         ],
-    },
-    {
-        # Case C: borderline — use this to pressure-test wherever you set the threshold
-        "query": "How long do I have to submit an expense report?",
-        "retrieved_chunks": [
-            {**CHUNKS["c4"], "rerank_score": 0.52},
-            {**CHUNKS["c5"], "rerank_score": 0.48},
-            {**CHUNKS["c3"], "rerank_score": 0.15},
-        ],
-    },
+    }
 ]
